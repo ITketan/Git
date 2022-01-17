@@ -61,6 +61,5 @@ git branch --merged
 git branch --no-merged
 git branch -d issue2 ( file not merge than error and if you want to delete it -D issue2 )
 git branch -D issue2 (if file is merged)
-git pull ""
-git push origin bugfix:mybugfix
+git push -d origin bugfix
 

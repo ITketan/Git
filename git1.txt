@@ -1,0 +1,64 @@
+ls 
+pwd
+cd 
+cd ..
+cd /
+git config --global user.name ""
+git config --global user.email ""
+git config --list
+git status
+git init
+vim
+touch
+git add --a
+git add -A
+git add .
+git commit 
+git commit -m ""
+git log
+git log -p -1
+rm -rf .git
+git remote -v
+touch error.log
+touch .gitignore
+git diff (compare staging area with present working directory(modified files))
+git diff --staged (compare previous commit to recent staging area)
+git commit -a -m "direct commit"  (untrack file no commit directly)
+git push -u origin master
+git rm ""
+git mv oldfile_name newfile_name
+vim .gitignore
+i (insert)
+esc
+:w (save)
+:wq (save changes and exit)
+:x  (exit)
+:q! (exit)
+git rm --cached ""
+git log -p (difference)
+git log -p -3
+git log --stat
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=full
+git log --since=2.days
+git log --since=2.weeks
+git log --since=2.years
+git log --pretty=format:" "
+git commit --amend
+git config --global core.editor notepad
+git config --global core.editor vim
+git restore --staged ""
+git restore ""
+git checkout -- filename
+git checkout -f
+git checkout -b develop
+git checkout master
+git branch
+git merge tryCleanup
+git branch -v
+git branch --merged
+git branch --no-merged
+git branch -d issue2 ( file not merge than error and if you want to delete it -D issue2 )
+git branch -D issue2 (if file is merged)
+
